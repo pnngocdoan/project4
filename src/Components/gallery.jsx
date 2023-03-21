@@ -3,7 +3,7 @@ import React from "react";
 const Gallery = ({images}) => {
     return (
         <div>
-            <h2> Your Screenshot Gallery!</h2>
+            <h2> Past Discoveries </h2>
             <div className="image-container">
                 {images && images.length > 0 ? (
                     images.map((pic, index) => (
@@ -18,7 +18,7 @@ const Gallery = ({images}) => {
                     ))
                 ) : (
                 <div>
-                    <h3>You haven't made a screenshot yet!</h3>
+                    <h3>You haven't discovered yet!</h3>
                 </div>
                 )}
             </div>
