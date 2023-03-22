@@ -7,18 +7,18 @@ const Gallery = ({images}) => {
             <div className="image-container">
                 {images && images.length > 0 ? (
                     images.map((pic, index) => (
-                        <li className="gallery" key={index}>
                             <img
-                            className="gallery=screenshot"
+                            key={index}
+                            className="gallery-screenshot"
                             src={pic}
                             alt="Undefined screenshot from query"
-                            width="500"
+                            width="50"
+                            heught="50"
                             />
-                        </li>
                     ))
                 ) : (
                 <div>
-                    <h3>You haven't discovered yet!</h3>
+                    <h4>You haven't discovered yet!</h4>
                 </div>
                 )}
             </div>
