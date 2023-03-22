@@ -2,7 +2,7 @@
 
 Submitted by: **Ngoc Doan**
 
-This web app: **Want to discover random pictures from NASA? Here we go! These pictures will have a tite, a date taken, and a story behind it!**
+This web app: **Want to discover random pictures from NASA? Here we go! These pictures will have a title, a date taken, and a story behind it!**
 
 Time spent: **48** hours spent in total
 
@@ -32,6 +32,7 @@ Here's a walkthrough of implemented user stories:
 
 <img src='./Walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 GIF created with Licecap  
+
 ## Notes
 
 I have a hard time dealing with API calls.
